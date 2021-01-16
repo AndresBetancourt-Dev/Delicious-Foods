@@ -2,7 +2,7 @@
 
 A static webpage made with the use of Vue.JS Javascript Framework.
 
-![](https://dribbble.com/shots/4595358-Delicious-Food)
+![Delicious Foods](https://dribbble.com/shots/4595358-Delicious-Food)
 
 ## Project setup
 ```
