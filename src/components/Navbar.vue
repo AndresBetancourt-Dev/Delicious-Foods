@@ -1,6 +1,6 @@
 <template>
-  <ul>
-      <li v-for="(page,index) in pages" :key="index">
+  <ul class="Navbar">
+      <li v-for="(page,index) in pages" :key="index" class="Navbar-item">
           {{page}}
       </li>
   </ul>
@@ -19,5 +19,14 @@ export default {
 </script>
 
 <style>
+.Navbar{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
 
+.Navbar-item{
+    margin : 1em 3em;
+    color: white;
+}
 </style>
