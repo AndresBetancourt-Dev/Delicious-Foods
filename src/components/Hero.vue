@@ -8,12 +8,15 @@
              <h1 class="Form-title">DELICIOUS FOOD</h1>
           <p class="Form-text">Delicious food, color, aroma and taste, What are you waiting for?</p>
           <form>
-            <input type="text" class="Form-input"> <button class="Form-button">Confirm</button>
+            <label for="email">Email</label>
+            <input type="text" class="Form-input" name="email" id="email" placeholder="your-email@example.com"> 
+            
+            <input type="submit" value="Confirm">
           </form>
           </div>
         </div>
         <div class="Grid">
-          <img src="../assets/pan.png" class="Egg"/>
+          <img src="../assets/pan.png" class="Egg" alt="Egg in a Pan"/>
           <div class="Shadow"></div>
         </div>
     </div>
@@ -70,8 +73,8 @@ export default {
   margin: 0;
 }
 
-.Form-text{
-
+label[for="email"]{
+  font-size: 0;
 }
 
 .Form-input, .Form-button{
