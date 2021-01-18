@@ -40,4 +40,11 @@ export default {
     opacity: 0.25;
 }
 
+@media screen and (max-width: 1060px) {
+    .Logo{
+        width: 50px;
+        height: 50px;
+    }
+}
+
 </style>

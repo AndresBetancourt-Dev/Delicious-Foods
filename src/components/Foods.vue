@@ -55,7 +55,6 @@ export default {
     .Food-container{
         width: 100vw;
         display: flex;
-        height: auto;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -64,5 +63,11 @@ export default {
     .Food-container li{
         margin: 0;
         padding: 0;
+    }
+
+    @media screen and (max-width:750px) {
+        .Food-container{
+            flex-wrap: wrap;
+        }
     }
 </style>

@@ -19,9 +19,20 @@ export default {
 <style>
   .Header{
     display: flex;
-    width: 100%;
+    width: 65%;
     height: auto;
-    padding: 2em 7.5em 2em 17.5em;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+  }
+  @media screen and (max-width: 950px) {
+    .Header{
+      flex-direction: column;
+      margin-top: 2em;
+    }
   }
 </style>

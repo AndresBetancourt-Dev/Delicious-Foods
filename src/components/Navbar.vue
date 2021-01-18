@@ -1,16 +1,13 @@
 <template>
-  <ul class="Navbar" v-for="(page,index) in pages" :key="index">     
-     <div v-if="page === 'Home'">
-         <li class="Navbar-item active">
+  <ul class="Navbar">
+      <template v-for="(page,index) in pages" :key="index">    
+         <li v-if="page === 'Home'" class="Navbar-item active">
           {{page}}
          </li>
-     </div>
-     <div v-else>
-         <li class="Navbar-item">
+         <li  v-else class="Navbar-item">
           {{page}}
          </li>
-     </div>
-      
+      </template>        
   </ul>
 </template>
 
@@ -31,17 +28,37 @@ export default {
     display: flex;
     text-decoration: none;
     list-style: none;
+    margin-left: 5%;
 }
 
 .Navbar-item{
-    margin : 1em 3em;
+    margin: 2em;
     color: white;
     font-family: 'Mazzard H',sans-serif;
     font-weight: 200;
+    cursor: pointer;
+    transition: 1s;
+    font-size: .85em;
 }
 
-.Navbar-item.active{
+.Navbar-item.active, .Navbar-item:hover{
     font-family: 'Mazzard H',sans-serif;
     font-weight: bold;
+    transform: scale(1.1,1.1);
 }
+
+
+@media screen and (max-width : 625px) {
+    .Navbar{
+        flex-direction: column;
+       
+    }
+
+    .Navbar-item{
+        width: 100%;
+        justify-self: flex-start;
+        margin: 1em;
+    }
+}
+
 </style>

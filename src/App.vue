@@ -28,5 +28,6 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Myriad Pro Semibold',sans-serif;
+  overflow-x: hidden;
 }
 </style>
