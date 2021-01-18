@@ -9,14 +9,14 @@
           <p class="Form-text">Delicious food, color, aroma and taste, What are you waiting for?</p>
           <form>
             <label for="email">Email</label>
-            <input type="text" class="Form-input" name="email" id="email" placeholder="your-email@example.com"> 
+            <input type="text" class="Form-input" name="email" id="email" placeholder="rwds@example.com"> 
             
-            <input type="submit" value="Confirm">
+            <input type="submit" class="Form-button" value="Confirm">
           </form>
           </div>
         </div>
         <div class="Grid">
-          <img src="../assets/pan.png" class="Egg" alt="Egg in a Pan"/>
+          <img src="../assets/images/pan.webp" class="Egg" alt="Egg in a Pan"/>
           <div class="Shadow"></div>
         </div>
     </div>
@@ -71,7 +71,14 @@ export default {
   font-size: 8vw;
   line-height: 1em;
   margin: 0;
+  font-family: 'Morn',sans-serif;
 }
+
+.Form-text{
+  font-family: 'Mazzard H';
+  font-weight: bold;
+}
+
 
 label[for="email"]{
   font-size: 0;
@@ -81,8 +88,23 @@ label[for="email"]{
   padding: 1em;
   border: none;
   outline: none;
-  border-radius: 20px;
+  border-radius: 30px;
   box-shadow: 0px 5px 40px rgba(0,0,0,.5);
+  font-family: 'Myriad Pro Bold',sans-serif;
+  font-size: 1em;
+}
+
+.Form-input{
+  padding: 15px 3em;
+}
+
+.Form-input::placeholder{
+  color: rgba(0,0,0,.2);
+}
+
+.Form-button{
+  margin-left: 10px;
+  padding: 15px 35px;
 }
 
 .Egg{

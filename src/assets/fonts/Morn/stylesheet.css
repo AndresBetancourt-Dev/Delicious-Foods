@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Morn-BlackOblique';
+    src: url('Morn-BlackOblique.woff2') format('woff2'),
+        url('Morn-BlackOblique.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-Black.woff2') format('woff2'),
+        url('Morn-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-BoldOblique';
+    src: url('Morn-BoldOblique.woff2') format('woff2'),
+        url('Morn-BoldOblique.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-Bold.woff2') format('woff2'),
+        url('Morn-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-DemiBoldOblique';
+    src: url('Morn-DemiBoldOblique.woff2') format('woff2'),
+        url('Morn-DemiBoldOblique.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-DemiBold.woff2') format('woff2'),
+        url('Morn-DemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-ExtraLightOblique';
+    src: url('Morn-ExtraLightOblique.woff2') format('woff2'),
+        url('Morn-ExtraLightOblique.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-Hairline';
+    src: url('Morn-Hairline.woff2') format('woff2'),
+        url('Morn-Hairline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-HairlineOblique';
+    src: url('Morn-HairlineOblique.woff2') format('woff2'),
+        url('Morn-HairlineOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-ExtraLight.woff2') format('woff2'),
+        url('Morn-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-LightOblique';
+    src: url('Morn-LightOblique.woff2') format('woff2'),
+        url('Morn-LightOblique.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-MediumOblique';
+    src: url('Morn-MediumOblique.woff2') format('woff2'),
+        url('Morn-MediumOblique.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-Light.woff2') format('woff2'),
+        url('Morn-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-Medium.woff2') format('woff2'),
+        url('Morn-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MornObliqueVariable';
+    src: url('MornObliqueVariable.woff2') format('woff2'),
+        url('MornObliqueVariable.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MornVariable';
+    src: url('MornVariable.woff2') format('woff2'),
+        url('MornVariable.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-RegularOblique';
+    src: url('Morn-RegularOblique.woff2') format('woff2'),
+        url('Morn-RegularOblique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-Regular.woff2') format('woff2'),
+        url('Morn-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-ThinOblique';
+    src: url('Morn-ThinOblique.woff2') format('woff2'),
+        url('Morn-ThinOblique.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-Thin.woff2') format('woff2'),
+        url('Morn-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn';
+    src: url('Morn-UltraBold.woff2') format('woff2'),
+        url('Morn-UltraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Morn-UltraBoldOblique';
+    src: url('Morn-UltraBoldOblique.woff2') format('woff2'),
+        url('Morn-UltraBoldOblique.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -12,31 +12,31 @@ export default {
     setup(){
         const foods = [
             {
-                image : "../assets/bread.png",
+                image : "../assets/bread.webp",
                 title : "Bread"
             },
             {
-                image : "../assets/burger.png",
+                image : "../assets/burger.webp",
                 title : "Hamburg"
             },
             {
-                image : "../assets/cheese.png",
+                image : "../assets/cheese.webp",
                 title : "Cheese"
             },
             {
-                image : "../assets/meat.png",
+                image : "../assets/meat.webp",
                 title : "Meat"
             },
             {
-                image : "../assets/donut.png",
+                image : "../assets/donut.webp",
                 title : "Doughnut"
             },
             {
-                image : "../assets/ice-cream.png",
+                image : "../assets/ice-cream.webp",
                 title : "ICE-Cream"
             },
             {
-                image : "../assets/pizza.png",
+                image : "../assets/pizza.webp",
                 title : "Pizza"
             }
         ]

@@ -16,6 +16,10 @@ export default {
 </script>
 
 <style>
+@import url('./assets/fonts/Myriad/style.css');
+@import url('./assets/fonts/Mazzard/stylesheet.css');
+@import url('./assets/fonts/Morn/stylesheet.css');
+
 *{
   box-sizing: border-box;
 }
@@ -23,5 +27,6 @@ export default {
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Myriad Pro Semibold',sans-serif;
 }
 </style>
