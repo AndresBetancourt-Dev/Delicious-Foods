@@ -11,9 +11,17 @@ A static webpage made with the use of Vue.JS Javascript Framework. Based on <a h
   <img src="https://cdn.iconscout.com/icon/free/png-512/heroku-5-569467.png" width="70" height="70" title="Heroku" style="margin: 15px;" hspace="20"> 
 </div>
 
+## Link
+<a href="https://delicious-foods-vue.herokuapp.com/" target="_blank">Delicious Foods - Heroku</a>
+
+## Score
+![Score](https://raw.githubusercontent.com/AndresBetancourt-Dev/Delicious-Foods/master/docs/images/delicious-foods-rating.png)
+
 
 ## Mockup - Delicious Food
 ![Delicious Foods](https://cdn.dribbble.com/users/674925/screenshots/4595358/197307874647470883.png?compress=1&resize=800x600)
+## Final Result
+![Delicious Foods](https://github.com/AndresBetancourt-Dev/Delicious-Foods/blob/master/docs/images/final-result.png)
 
 ## Project setup
 ```
